@@ -242,32 +242,41 @@
         <!-- Section title: 24px H2 -->
         <h2 id="articles-title" class="h2">Kiemelt tartalom, ha új vagy a témában</h2>
         
-        <!-- 3-column article grid: Substack article embeds -->
+        <!-- 3-column article grid: Custom article cards -->
         <div class="grid grid--3 article-embeds">
-          <!-- Article 1: Substack embed -->
-          <article class="embed">
-            <div class="substack-post-embed">
-              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
-              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
-              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+          <!-- Article 1: Custom article card -->
+          <article class="article-card">
+            <div class="article-card__content">
+              <h3 class="article-card__title">Az automatizáció nem eszköz, hanem szemlélet</h3>
+              <p class="article-card__description">A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik. Sokan azt gondolják, hogy az automatizáció ott kezdődik, amikor összekötünk két szoftvert.</p>
+              <div class="article-card__author">
+                <span class="article-card__author-name">Norbert Bogdan</span>
+              </div>
+              <a href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem" class="article-card__button" target="_blank" rel="noopener">Read on Substack</a>
             </div>
           </article>
           
-          <!-- Article 2: Substack embed -->
-          <article class="embed">
-            <div class="substack-post-embed">
-              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
-              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
-              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+          <!-- Article 2: Custom article card -->
+          <article class="article-card">
+            <div class="article-card__content">
+              <h3 class="article-card__title">Automatizáció a gyakorlatban</h3>
+              <p class="article-card__description">Hogyan kezdj el automatizálni anélkül, hogy elárasztana a technikai részletek? Itt vannak a gyakorlati lépések, amiket én is alkalmazok.</p>
+              <div class="article-card__author">
+                <span class="article-card__author-name">Norbert Bogdan</span>
+              </div>
+              <a href="https://norbertai.substack.com/p/automatizacio-gyakorlatban" class="article-card__button" target="_blank" rel="noopener">Read on Substack</a>
             </div>
           </article>
           
-          <!-- Article 3: Substack embed -->
-          <article class="embed">
-            <div class="substack-post-embed">
-              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
-              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
-              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+          <!-- Article 3: Custom article card -->
+          <article class="article-card">
+            <div class="article-card__content">
+              <h3 class="article-card__title">3 jel, hogy ideje automatizálni</h3>
+              <p class="article-card__description">Mikor érdemes elkezdeni az automatizálást? Itt vannak a jelek, amikor már nem lehet tovább halogatni a rendszerezést.</p>
+              <div class="article-card__author">
+                <span class="article-card__author-name">Norbert Bogdan</span>
+              </div>
+              <a href="https://norbertai.substack.com/p/3-jel-automatizalas" class="article-card__button" target="_blank" rel="noopener">Read on Substack</a>
             </div>
           </article>
         </div>
@@ -292,8 +301,6 @@
       document.getElementById('y').textContent = new Date().getFullYear();
     </script>
     
-    <!-- Substack embed script -->
-    <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
   </body>
   </html>
 
