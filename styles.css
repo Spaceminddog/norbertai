@@ -30,7 +30,7 @@ body {
    LAYOUT & CONTAINER SYSTEM
    ======================================== */
 .container {
-  max-width: 1120px;        /* Maximum content width for readability */
+  max-width: 800px;        /* Maximum content width for readability */
   margin: 0 auto;           /* Center the container */
   padding: 0 20px;          /* Horizontal padding for mobile */
 }
@@ -136,7 +136,7 @@ p, .muted {
   align-items: flex-start; 
   border: 1px solid var(--border); 
   border-radius: 10px; 
-  padding: 12px 14px; 
+  padding: 12px 20px 12px 12px; 
   background: transparent;
 }
 .callout--blue { 
@@ -282,39 +282,37 @@ p, .muted {
 .accordion { 
   border: 1px solid var(--border); 
   border-radius: 12px; 
-  padding: 8px 12px; 
+  padding: 0; 
   background: transparent; 
   margin: 12px 0; 
+  overflow: hidden;
 }
 .accordion[open] { 
-  background: rgba(255,255,255,0.02); 
+  background: transparent; 
 }
 .accordion__summary { 
   list-style: none; 
   display: flex; 
   align-items: center; 
-  gap: 10px; 
+  gap: 12px; 
   cursor: pointer; 
   position: relative; 
-  padding-right: 28px; 
-}
-/* Toggle icon positioned between case study icon and text */
-.accordion__summary .accordion__toggle {
-  order: 1;
-  margin: 0 8px;
+  padding: 16px 20px; 
+  background: transparent;
+  border: none;
 }
 /* Custom chevron toggle indicator */
 .accordion__summary::after { 
   content: ""; 
-  width: 10px; 
-  height: 10px; 
+  width: 8px; 
+  height: 8px; 
   border-right: 2px solid var(--text); 
   border-bottom: 2px solid var(--text); 
   transform: rotate(-45deg); 
   position: absolute; 
-  right: 6px; 
+  right: 20px; 
   top: 50%; 
-  margin-top: -6px; 
+  margin-top: -4px; 
   opacity: 0.8; 
 }
 .accordion[open] .accordion__summary::after { 
@@ -330,12 +328,42 @@ p, .muted {
 /* ========================================
    ARTICLE EMBEDS
    ======================================== */
-/* Substack article embed containers */
+/* Substack article embed containers with dark theme styling */
 .embed { 
   border: 1px solid var(--border); 
   border-radius: 12px; 
   overflow: hidden; 
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
 }
+
+/* Substack embed styling to match dark theme */
+.substack-post-embed {
+  background: transparent !important;
+  color: var(--text) !important;
+  padding: 20px;
+}
+
+.substack-post-embed p {
+  color: var(--text) !important;
+  margin-bottom: 12px;
+}
+
+.substack-post-embed a[data-post-link] {
+  background: var(--blue) !important;
+  color: var(--text) !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 12px;
+  transition: filter 0.2s ease;
+}
+
+.substack-post-embed a[data-post-link]:hover {
+  filter: brightness(1.1);
+}
+
 .embed__placeholder { 
   aspect-ratio: 16/9; 
   display: grid; 
