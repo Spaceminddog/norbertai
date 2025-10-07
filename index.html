@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="hu">
   <head>
+    <!-- Basic HTML5 meta tags for proper document structure -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- SEO and page identification -->
     <title>Bogdán Norbert – Automatizáció</title>
     <meta name="description" content="Vállalkozóknak és vezetőknek segítek automatizálni az ismétlődő feladatokat, növelni a bevételt, csökkenteni a költségeket és felszabadítani az idejüket." />
+    
+    <!-- Font optimization: preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Accessibility: Skip link for keyboard navigation -->
     <a class="skip-link" href="#main">Ugrás a tartalomra</a>
+    
+    <!-- Site header with navigation -->
     <header class="site-header">
       <div class="container">
         <nav class="nav" aria-label="Fő navigáció">
@@ -20,8 +30,12 @@
       </div>
     </header>
 
+    <!-- Main content area -->
     <main id="main" class="site-main">
+      
+      <!-- HERO SECTION: Introduction with image, title, value proposition and CTA -->
       <section class="hero container" aria-labelledby="hero-title">
+        <!-- Hero image: 125x125px avatar positioned above title -->
         <div class="hero__media">
           <img
             src="https://designter.s3.eu-central-1.amazonaws.com/my+character.webp"
@@ -31,8 +45,13 @@
             class="hero__avatar"
           />
         </div>
+        
+        <!-- Hero content: title, value proposition callout, and CTA button -->
         <div class="hero__content">
+          <!-- Main heading: 40px H1 with name -->
           <h1 id="hero-title" class="h1">Bogdán Norbert</h1>
+          
+          <!-- Blue highlight callout: value proposition with bullseye icon -->
           <div class="callout callout--blue" role="note">
             <img
               src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg"
@@ -49,6 +68,7 @@
             </p>
           </div>
 
+          <!-- Call-to-action: primary button with chat icon and consultation note -->
           <div class="cta">
             <a class="button button--primary" href="#contact">
               <img src="https://designter.s3.eu-central-1.amazonaws.com/chat_gray.svg" width="20" height="20" alt="Chat" />
@@ -59,11 +79,16 @@
         </div>
       </section>
 
+      <!-- SOCIAL PROOF SECTION: Client testimonials with interactive quiz -->
       <section class="social-proof container" aria-labelledby="social-title">
+        <!-- Section title: 20px H3 -->
         <h3 id="social-title" class="h3">Ügyfeleim mondták…</h3>
+        <!-- Interactive challenge: find the AI-generated video -->
         <p class="muted">Vagy mégsem? 🤔 A videók között van egy Ai generált kakukktojás. Kitalálod, melyik?</p>
 
+        <!-- 3-column video grid: YouTube Shorts embeds with quiz buttons -->
         <div class="grid grid--3">
+          <!-- Video 1: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -84,6 +109,7 @@
             </figcaption>
           </figure>
 
+          <!-- Video 2: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -104,6 +130,7 @@
             </figcaption>
           </figure>
 
+          <!-- Video 3: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -126,19 +153,28 @@
         </div>
       </section>
 
+      <!-- WHEN TO AUTOMATE SECTION: Three signs that indicate automation is needed -->
       <section class="when-to-automate container" aria-labelledby="when-title">
+        <!-- Section title: 24px H2 -->
         <h2 id="when-title" class="h2">Három jel, hogy ideje automatizálni</h2>
+        
+        <!-- 3-column card grid: each card has icon, blue title, and description -->
         <div class="grid grid--3 cards">
+          <!-- Card 1: Time waste indicator -->
           <article class="card">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/clock+(1).png" width="70" height="70" alt="Óra" class="card__image" />
             <p class="card__title" style="color:#233850"><strong>Túl sok idő megy el ismétlődő feladatokra</strong></p>
             <p class="card__body">Ha naponta ugyanazokat a riportokat, emaileket vagy adminisztrációt végzed, az időd elfolyik. Segíthetek visszaszerezni.</p>
           </article>
+          
+          <!-- Card 2: Team overload indicator -->
           <article class="card">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/businessman+(1).png" width="70" height="70" alt="Üzletember" class="card__image" />
             <p class="card__title" style="color:#233850"><strong>Te vagy a csapatod túlterhelt</strong></p>
             <p class="card__body">Ha mindenki mindent csinál, de semmi sem hatékony, új emberek helyett rendszert érdemes építeni.</p>
           </article>
+          
+          <!-- Card 3: Lack of transparency indicator -->
           <article class="card">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/mess+(2).png" width="70" height="70" alt="Káosz" class="card__image" />
             <p class="card__title" style="color:#233850"><strong>Nincs átláthatóság a működésben</strong></p>
@@ -147,12 +183,16 @@
         </div>
       </section>
 
+      <!-- CASE STUDIES SECTION: Detailed project examples with expandable accordions -->
       <section class="case-studies container" aria-labelledby="cases-title">
+        <!-- Section title: 24px H2 -->
         <h2 id="cases-title" class="h2">Esettanulmányok</h2>
 
+        <!-- Case Study 1: Art therapist content automation -->
         <details class="accordion" aria-labelledby="case1-summary">
           <summary id="case1-summary" class="accordion__summary">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/chess-queen_gray.svg" width="20" height="20" alt="Ikon" />
+            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="16" height="16" alt="Toggle" class="accordion__toggle" />
             <span><strong>Művészetterapeuta tartalomkészítési és operációs folyamatainak rendszerezése, automatizálása</strong></span>
           </summary>
           <div class="accordion__content">
@@ -165,9 +205,11 @@
           </div>
         </details>
 
+        <!-- Case Study 2: Accounting office invoice verification automation -->
         <details class="accordion" aria-labelledby="case2-summary">
           <summary id="case2-summary" class="accordion__summary">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/gradebook_gray.svg" width="20" height="20" alt="Ikon" />
+            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="16" height="16" alt="Toggle" class="accordion__toggle" />
             <span><strong>Könyvelőiroda számlaellenőrzési és hibajavítási folyamatának automatizálása</strong></span>
           </summary>
           <div class="accordion__content">
@@ -180,9 +222,11 @@
           </div>
         </details>
 
+        <!-- Case Study 3: Cafe branding and social media automation -->
         <details class="accordion" aria-labelledby="case3-summary">
           <summary id="case3-summary" class="accordion__summary">
             <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Ikon" />
+            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="16" height="16" alt="Toggle" class="accordion__toggle" />
             <span><strong>Új kávézó és bár arculattervezése és social media managmentjének rendszervezése - automatizálása</strong></span>
           </summary>
           <div class="accordion__content">
@@ -196,20 +240,42 @@
         </details>
       </section>
 
+      <!-- ARTICLES SECTION: Featured content with Substack embeds and call-to-action -->
       <section class="articles container" aria-labelledby="articles-title">
+        <!-- Section title: 24px H2 -->
         <h2 id="articles-title" class="h2">Kiemelt tartalom, ha új vagy a témában</h2>
+        
+        <!-- 3-column article grid: Substack article embeds -->
         <div class="grid grid--3 article-embeds">
+          <!-- Article 1: Substack embed -->
           <article class="embed">
-            <div class="embed__placeholder" aria-hidden="true">Substack cikk 1</div>
+            <div class="substack-post-embed">
+              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
+              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
+              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+            </div>
           </article>
+          
+          <!-- Article 2: Substack embed -->
           <article class="embed">
-            <div class="embed__placeholder" aria-hidden="true">Substack cikk 2</div>
+            <div class="substack-post-embed">
+              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
+              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
+              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+            </div>
           </article>
+          
+          <!-- Article 3: Substack embed -->
           <article class="embed">
-            <div class="embed__placeholder" aria-hidden="true">Substack cikk 3</div>
+            <div class="substack-post-embed">
+              <p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p>
+              <p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p>
+              <a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem">Read on Substack</a>
+            </div>
           </article>
         </div>
 
+        <!-- Gray callout: Additional content invitation with bullseye icon -->
         <div class="callout callout--gray">
           <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Cél ikon" class="callout__icon" />
           <p>Ezeken már túl vagy, esetleg tovább olvasnál? Kattints ide és olvasd el bármely bejegyzésem.</p>
@@ -217,15 +283,20 @@
       </section>
     </main>
 
+    <!-- Site footer with copyright -->
     <footer class="site-footer">
       <div class="container">
         <small>© <span id="y"></span> Bogdán Norbert</small>
       </div>
     </footer>
 
+    <!-- JavaScript: Dynamic year insertion for copyright -->
     <script>
       document.getElementById('y').textContent = new Date().getFullYear();
     </script>
+    
+    <!-- Substack embed script -->
+    <script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
   </body>
   </html>
 
