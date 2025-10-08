@@ -4,23 +4,29 @@
     <!-- Basic HTML5 meta tags for proper document structure -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- SEO and page identification -->
     <title>Bogdán Norbert – Automatizáció</title>
-    <meta name="description" content="Vállalkozóknak és vezetőknek segítek automatizálni az ismétlődő feladatokat, növelni a bevételt, csökkenteni a költségeket és felszabadítani az idejüket." />
-    
+    <meta
+      name="description"
+      content="Vállalkozóknak és vezetőknek segítek automatizálni az ismétlődő feladatokat, növelni a bevételt, csökkenteni a költségeket és felszabadítani az idejüket."
+    />
+
     <!-- Font optimization: preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Accessibility: Skip link for keyboard navigation -->
     <a class="skip-link" href="#main">Ugrás a tartalomra</a>
-    
+
     <!-- Site header with navigation -->
     <header class="site-header">
       <div class="container">
@@ -32,10 +38,8 @@
 
     <!-- Main content area -->
     <main id="main" class="site-main">
-      
-      <!-- HERO SECTION: Introduction with image, title, value proposition and CTA -->
+      <!-- HERO SECTION -->
       <section class="hero container" aria-labelledby="hero-title">
-        <!-- Hero image: 125x125px avatar positioned above title -->
         <div class="hero__media">
           <img
             src="https://designter.s3.eu-central-1.amazonaws.com/my+character.webp"
@@ -45,13 +49,10 @@
             decoding="async"
           />
         </div>
-        
-        <!-- Hero content: title, value proposition callout, and CTA button -->
+
         <div class="hero__content">
-          <!-- Main heading: 40px H1 with name -->
           <h1 id="hero-title" class="h1">Bogdán Norbert</h1>
-          
-          <!-- Blue highlight callout: value proposition with bullseye icon -->
+
           <div class="callout callout--blue" role="note">
             <img
               src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg"
@@ -61,32 +62,39 @@
               class="callout__icon"
             />
             <p>
-              Vállalkozóknak és vezetőknek segítek <strong>automatizálni</strong> az ismétlődő feladatokat,
-              <strong>növelni a bevételt</strong>, <strong>csökkenteni a költségeket</strong>, és
-              <strong>felszabadítani az idejüket</strong>, hogy a káosz helyett a <strong>növekedésre</strong>
-              fókuszálhassanak.
+              Vállalkozóknak és vezetőknek segítek <strong>automatizálni</strong> az
+              ismétlődő feladatokat, <strong>növelni a bevételt</strong>,
+              <strong>csökkenteni a költségeket</strong>, és
+              <strong>felszabadítani az idejüket</strong>, hogy a káosz helyett a
+              <strong>növekedésre</strong> fókuszálhassanak.
             </p>
           </div>
 
-          <!-- Call-to-action: primary button with chat icon and consultation note -->
           <div class="cta">
             <a class="button button--primary" href="#contact">
-              <img src="https://designter.s3.eu-central-1.amazonaws.com/chat_gray.svg" width="20" height="20" alt="Chat" loading="lazy" decoding="async" />
+              <img
+                src="https://designter.s3.eu-central-1.amazonaws.com/chat_gray.svg"
+                width="20"
+                height="20"
+                alt="Chat"
+                loading="lazy"
+                decoding="async"
+              />
               <span>Beszéljünk -> 20 perces ingyenes konzultáció</span>
             </a>
+          </div>
         </div>
       </section>
 
-      <!-- SOCIAL PROOF SECTION: Client testimonials with interactive quiz -->
+      <!-- SOCIAL PROOF SECTION -->
       <section class="social-proof container" aria-labelledby="social-title">
-        <!-- Section title: 20px H3 -->
         <h3 id="social-title" class="h3">Ügyfeleim mondták…</h3>
-        <!-- Interactive challenge: find the AI-generated video -->
-        <p class="muted">Vagy mégsem? 🤔 A videók között van egy Ai generált kakukktojás. Kitalálod, melyik?</p>
+        <p class="muted">
+          Vagy mégsem? 🤔 A videók között van egy Ai generált kakukktojás. Kitalálod,
+          melyik?
+        </p>
 
-        <!-- 3-column video grid: YouTube Shorts embeds with quiz buttons -->
         <div class="grid grid--3">
-          <!-- Video 1: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -95,18 +103,22 @@
                 loading="lazy"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
+                allowfullscreen
+              ></iframe>
             </div>
             <figcaption>
               <button class="button button--gray">
-                <img src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg" width="20" height="20" alt="Tojás ikon" />
+                <img
+                  src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg"
+                  width="20"
+                  height="20"
+                  alt="Tojás ikon"
+                />
                 <span>Ez a kakukktojás!</span>
               </button>
             </figcaption>
           </figure>
 
-          <!-- Video 2: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -115,18 +127,22 @@
                 loading="lazy"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
+                allowfullscreen
+              ></iframe>
             </div>
             <figcaption>
               <button class="button button--gray">
-                <img src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg" width="20" height="20" alt="Tojás ikon" />
+                <img
+                  src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg"
+                  width="20"
+                  height="20"
+                  alt="Tojás ikon"
+                />
                 <span>Ez a kakukktojás!</span>
               </button>
             </figcaption>
           </figure>
 
-          <!-- Video 3: Client testimonial with quiz button -->
           <figure class="video-card">
             <div class="video">
               <iframe
@@ -135,12 +151,17 @@
                 loading="lazy"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
+                allowfullscreen
+              ></iframe>
             </div>
             <figcaption>
               <button class="button button--gray">
-                <img src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg" width="20" height="20" alt="Tojás ikon" />
+                <img
+                  src="https://designter.s3.eu-central-1.amazonaws.com/egg_gray.svg"
+                  width="20"
+                  height="20"
+                  alt="Tojás ikon"
+                />
                 <span>Ez a kakukktojás!</span>
               </button>
             </figcaption>
@@ -148,189 +169,337 @@
         </div>
       </section>
 
-      <!-- WHEN TO AUTOMATE SECTION: Three signs that indicate automation is needed -->
+      <!-- WHEN TO AUTOMATE SECTION -->
       <section class="when-to-automate container" aria-labelledby="when-title">
-        <!-- Section title: 24px H2 -->
         <h2 id="when-title" class="h2">Három jel, hogy ideje automatizálni</h2>
-        
-        <!-- 3-column card grid: each card has icon, blue title, and description -->
+
         <div class="grid grid--3 cards">
-          <!-- Card 1: Time waste indicator -->
           <article class="card">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/clock+(1).png" width="70" height="70" alt="Óra" class="card__image" loading="lazy" decoding="async" />
-            <p class="card__title"><strong>Túl sok idő megy el ismétlődő feladatokra</strong></p>
-            <p class="card__body">Ha naponta ugyanazokat a riportokat, emaileket vagy adminisztrációt végzed, az időd elfolyik. Segíthetek visszaszerezni.</p>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/clock+(1).png"
+              width="70"
+              height="70"
+              alt="Óra"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <p class="card__title">
+              <strong>Túl sok idő megy el ismétlődő feladatokra</strong>
+            </p>
+            <p class="card__body">
+              Ha naponta ugyanazokat a riportokat, emaileket vagy adminisztrációt
+              végzed, az időd elfolyik. Segíthetek visszaszerezni.
+            </p>
           </article>
-          
-          <!-- Card 2: Team overload indicator -->
+
           <article class="card">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/businessman+(1).png" width="70" height="70" alt="Üzletember" class="card__image" loading="lazy" decoding="async" />
-            <p class="card__title"><strong>Te vagy a csapatod túlterhelt</strong></p>
-            <p class="card__body">Ha mindenki mindent csinál, de semmi sem hatékony, új emberek helyett rendszert érdemes építeni.</p>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/businessman+(1).png"
+              width="70"
+              height="70"
+              alt="Üzletember"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <p class="card__title">
+              <strong>Te vagy a csapatod túlterhelt</strong>
+            </p>
+            <p class="card__body">
+              Ha mindenki mindent csinál, de semmi sem hatékony, új emberek helyett
+              rendszert érdemes építeni.
+            </p>
           </article>
-          
-          <!-- Card 3: Lack of transparency indicator -->
+
           <article class="card">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/mess+(2).png" width="70" height="70" alt="Káosz" class="card__image" loading="lazy" decoding="async" />
-            <p class="card__title"><strong>Nincs átláthatóság a működésben</strong></p>
-            <p class="card__body">Ha nem látod, hol csúszik el a folyamat vagy mennyi idő vész el, az automatizáció rendet teremthet.</p>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/mess+(2).png"
+              width="70"
+              height="70"
+              alt="Káosz"
+              class="card__image"
+              loading="lazy"
+              decoding="async"
+            />
+            <p class="card__title">
+              <strong>Nincs átláthatóság a működésben</strong>
+            </p>
+            <p class="card__body">
+              Ha nem látod, hol csúszik el a folyamat vagy mennyi idő vész el, az
+              automatizáció rendet teremthet.
+            </p>
           </article>
         </div>
       </section>
 
-      <!-- CASE STUDIES SECTION: Detailed project examples with expandable accordions -->
+      <!-- CASE STUDIES SECTION -->
       <section class="case-studies container" aria-labelledby="cases-title">
-        <!-- Section title: 24px H2 -->
         <h2 id="cases-title" class="h2">Esettanulmányok</h2>
 
-        <!-- Case Study 1: Art therapist content automation -->
         <details class="accordion" aria-labelledby="case1-summary">
           <summary id="case1-summary" class="accordion__summary">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/chess-queen_gray.svg" width="20" height="20" alt="Ikon" />
-            <span><strong>Művészetterapeuta tartalomkészítési és operációs folyamatainak rendszerezése, automatizálása</strong></span>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/chess-queen_gray.svg"
+              width="20"
+              height="20"
+              alt="Ikon"
+            />
+            <span
+              ><strong
+                >Művészetterapeuta tartalomkészítési és operációs folyamatainak
+                rendszerezése, automatizálása</strong
+              ></span
+            >
           </summary>
           <div class="accordion__content">
             <h3 class="h3">Probléma:</h3>
-            <p>Az ország egyik legtapasztaltabb meseterapeutája fordult hozzám azzal, hogy rendszerbe szeretné foglalni a tartalomkészítési folyamatait és megerősíteni az online jelenlétét. Az online és személyes, csoportos és egyéni foglalkozások mellett nem jutott elég idő a folyamatosan növekvő feladatok elvégzésére.</p>
+            <p>
+              Az ország egyik legtapasztaltabb meseterapeutája fordult hozzám azzal,
+              hogy rendszerbe szeretné foglalni a tartalomkészítési folyamatait és
+              megerősíteni az online jelenlétét. Az online és személyes, csoportos és
+              egyéni foglalkozások mellett nem jutott elég idő a folyamatosan növekvő
+              feladatok elvégzésére.
+            </p>
             <h3 class="h3">Megoldás:</h3>
-            <p>A célközösség elemzését követően elkészült egy profi, konverzióképes landing page (egy oldalas weboldal), amit összekapcsoltunk egy könnyen kezelhető adatbázissal. Az egyedi adatbázis automatizációk révén lehetővé teszi a terapeuta számára, hogy rendszerben építse a tudástárát, melyből a különböző social media felületeire optimalizált posztok készülnek. A rendszer működtetését egyértelmű SOP-val támogattuk meg.</p>
+            <p>
+              A célközösség elemzését követően elkészült egy profi, konverzióképes
+              landing page (egy oldalas weboldal), amit összekapcsoltunk egy könnyen
+              kezelhető adatbázissal. Az egyedi adatbázis automatizációk révén
+              lehetővé teszi a terapeuta számára, hogy rendszerben építse a
+              tudástárát, melyből a különböző social media felületeire optimalizált
+              posztok készülnek. A rendszer működtetését egyértelmű SOP-val támogattuk
+              meg.
+            </p>
             <h3 class="h3">Eredmény:</h3>
-            <p>Bár a cél inkább a meglévő kliensek edukációja és elkötelezettségének növelése volt, már az első héten <strong>3 új, visszatérő vendége</strong> lett a landing page közvetítése által. A posztok megírása <strong>napi 2-3 óráról 30-45 percre csökkent</strong>, ezzel arányosan a konzekvens posztok száma is <strong>30%-al nőtt.</strong></p>
+            <p>
+              Bár a cél inkább a meglévő kliensek edukációja és elkötelezettségének
+              növelése volt, már az első héten <strong>3 új, visszatérő vendége</strong>
+              lett a landing page közvetítése által. A posztok megírása
+              <strong>napi 2-3 óráról 30-45 percre csökkent</strong>, ezzel arányosan a
+              konzekvens posztok száma is <strong>30%-al nőtt.</strong>
+            </p>
           </div>
         </details>
 
-        <!-- Case Study 2: Accounting office invoice verification automation -->
         <details class="accordion" aria-labelledby="case2-summary">
           <summary id="case2-summary" class="accordion__summary">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/gradebook_gray.svg" width="20" height="20" alt="Ikon" />
-            <span><strong>Könyvelőiroda számlaellenőrzési és hibajavítási folyamatának automatizálása</strong></span>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/gradebook_gray.svg"
+              width="20"
+              height="20"
+              alt="Ikon"
+            />
+            <span
+              ><strong
+                >Könyvelőiroda számlaellenőrzési és hibajavítási folyamatának
+                automatizálása</strong
+              ></span
+            >
           </summary>
           <div class="accordion__content">
             <h3 class="h3">Probléma:</h3>
-            <p>Az ügyfelem a kliensei által küldött kimenő-bejövő számlákat manuálisan ellenőrizte egy bonyolult kódrendszerből kiolvasva, hogy megállapítsa, megfelelően kerültek-e rögzítésre a kliensei könyvviteli rendszerében.</p>
+            <p>
+              Az ügyfelem a kliensei által küldött kimenő-bejövő számlákat manuálisan
+              ellenőrizte egy bonyolult kódrendszerből kiolvasva, hogy megállapítsa,
+              megfelelően kerültek-e rögzítésre a kliensei könyvviteli rendszerében.
+            </p>
             <h3 class="h3">Megoldás:</h3>
-            <p>Kialakítottunk egy egyszerűen kezelhető infrastruktúrát, ahova a könyvelési anyag rendezetten érkezik az ügyfelek által. Erre automata értesítést iktattunk be. A feltöltött számlák bekerülnek egy egyedi adatbázisba, ahol a könyvelési rendszer kódolt átiratát is feltölti az ügyfelem. Ezt követően a rendszer beolvassa a feltöltött számlákat és alaposan összeveti a könyvelési anyag kódolt átiratával. Végül jelzi, hogy minden rendben talált-e, vagy ha eltérés van, akkor felhívja a figyelmet az ellenőrzésre és jelzi, hogy mi a gond.</p>
+            <p>
+              Kialakítottunk egy egyszerűen kezelhető infrastruktúrát, ahova a
+              könyvelési anyag rendezetten érkezik az ügyfelek által. Erre automata
+              értesítést iktattunk be. A feltöltött számlák bekerülnek egy egyedi
+              adatbázisba, ahol a könyvelési rendszer kódolt átiratát is feltölti az
+              ügyfelem. Ezt követően a rendszer beolvassa a feltöltött számlákat és
+              alaposan összeveti a könyvelési anyag kódolt átiratával. Végül jelzi,
+              hogy minden rendben talált-e, vagy ha eltérés van, akkor felhívja a
+              figyelmet az ellenőrzésre és jelzi, hogy mi a gond.
+            </p>
             <h3 class="h3">Eredmény:</h3>
-            <p>Az ügyfelem épp skálázódik és új kolléga felvételén gondolkozott. A rendszer lehetővé tette neki, hogy még jó ideig ne kelljen új kollégát alkalmaznia és mégis el tudja látni magas színvonalon a feladatát. A feladat korábban havi 15-20 órát is igénybe vehetett, jelenleg azonban ez kevesebb, mint 5 órára csökkent. Ennek megfelelően az ügyfelemnek lehetősége van további klienseket fogadni.</p>
+            <p>
+              Az ügyfelem épp skálázódik és új kolléga felvételén gondolkozott. A
+              rendszer lehetővé tette neki, hogy még jó ideig ne kelljen új kollégát
+              alkalmaznia és mégis el tudja látni magas színvonalon a feladatát. A
+              feladat korábban havi 15-20 órát is igénybe vehetett, jelenleg azonban ez
+              kevesebb, mint 5 órára csökkent. Ennek megfelelően az ügyfelemnek
+              lehetősége van további klienseket fogadni.
+            </p>
           </div>
         </details>
 
-        <!-- Case Study 3: Cafe branding and social media automation -->
         <details class="accordion" aria-labelledby="case3-summary">
           <summary id="case3-summary" class="accordion__summary">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Ikon" />
-            <span><strong>Új kávézó és bár arculattervezése és social media managmentjének rendszervezése - automatizálása</strong></span>
+            <img
+              src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg"
+              width="20"
+              height="20"
+              alt="Ikon"
+            />
+            <span
+              ><strong
+                >Új kávézó és bár arculattervezése és social media managmentjének
+                rendszervezése - automatizálása</strong
+              ></span
+            >
           </summary>
           <div class="accordion__content">
             <h3 class="h3">Probléma:</h3>
-            <p>A rendelőben a recepciósok manuálisan kezelték a hirdetésekből érkező érdeklődőket. A visszahívások átlagosan 45–60 percet késtek, így számos lead elveszett, miközben az adminisztráció túl sok időt vitt el.</p>
+            <p>
+              A rendelőben a recepciósok manuálisan kezelték a hirdetésekből érkező
+              érdeklődőket. A visszahívások átlagosan 45–60 percet késtek, így számos
+              lead elveszett, miközben az adminisztráció túl sok időt vitt el.
+            </p>
             <h3 class="h3">Megoldás:</h3>
-            <p>A rendszerben a leadek adatai automatikusan rögzítésre kerülnek, erről a recepciósok azonnali értesítést, az érdeklődők pedig azonnali visszaigazolást kapnak. A hívások státuszát a recepciósok rögzítik. Ha szükséges, a rendszer további hívásokat ütemez. A rendelő vezetője valós időben monitorozza a reakcióidőt és a konverziós arányokat. Mindezt két Make.com integráció, két Google Sheets táblázat és Google Apps Script kód biztosítja, amelyek zökkenőmentesen összekapcsolják az űrlapokat, az értesítéseket és az utánkövetést.</p>
+            <p>
+              A rendszerben a leadek adatai automatikusan rögzítésre kerülnek, erről a
+              recepciósok azonnali értesítést, az érdeklődők pedig azonnali
+              visszaigazolást kapnak. A hívások státuszát a recepciósok rögzítik. Ha
+              szükséges, a rendszer további hívásokat ütemez. A rendelő vezetője valós
+              időben monitorozza a reakcióidőt és a konverziós arányokat. Mindezt két
+              Make.com integráció, két Google Sheets táblázat és Google Apps Script
+              kód biztosítja, amelyek zökkenőmentesen összekapcsolják az űrlapokat, az
+              értesítéseket és az utánkövetést.
+            </p>
             <h3 class="h3">Eredmény:</h3>
-            <p>A leadek száma <strong>62%-kal nőtt</strong>, a visszahívási idő 48 percről 8 percre csökkent (<strong>83%-os gyorsulás</strong>), miközben a recepciósok adminisztratív terhei <strong>80%-kal mérséklődtek</strong>.</p>
+            <p>
+              A leadek száma <strong>62%-kal nőtt</strong>, a visszahívási idő 48
+              percről 8 percre csökkent (<strong>83%-os gyorsulás</strong>), miközben a
+              recepciósok adminisztratív terhei <strong>80%-kal mérséklődtek</strong>.
+            </p>
           </div>
         </details>
       </section>
 
-      <!-- ARTICLES SECTION: Featured content with Substack embeds and call-to-action -->
-<!-- /mnt/data/index.html -->
-<!-- 1) Find your current "Articles/Substack" section and REPLACE the whole section with this: -->
-<section class="article-embeds container">
-  <h2 class="section-title">Kiemelt tartalom, ha új vagy a témában</h2>
+      <!-- ARTICLES SECTION: Static gray cards + callout -->
+      <section class="article-embeds container">
+        <h2 class="section-title">Kiemelt tartalom, ha új vagy a témában</h2>
 
-  <div class="ss-grid">
-    <!-- CARD 1 -->
-    <article class="ss-card">
-      <div class="ss-card__media">
-        <!-- Replace with your cover image -->
-        <img
-          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
-          alt="Az automatizáció nem eszköz, hanem szemlélet – borítókép"
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-      <div class="ss-card__body">
-        <h3 class="ss-card__title">
-          <a href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
-             target="_blank" rel="noopener">
-            Az automatizáció nem eszköz, hanem szemlélet
-          </a>
-        </h3>
-        <p class="ss-card__desc">
-          A valódi hatékonyság nem technológiából, hanem gondolkodásmódból születik.
-        </p>
-        <div class="ss-card__actions">
-          <a class="cta cta--outline"
-             href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
-             target="_blank" rel="noopener">
-            Olvasd el Substacken
-          </a>
+        <div class="ss-grid">
+          <!-- CARD 1 -->
+          <article class="ss-card">
+            <div class="ss-card__media">
+              <img
+                src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+                alt="Az automatizáció nem eszköz, hanem szemlélet – borítókép"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="ss-card__body">
+              <h3 class="ss-card__title">
+                <a
+                  href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Az automatizáció nem eszköz, hanem szemlélet
+                </a>
+              </h3>
+              <p class="ss-card__desc">
+                A valódi hatékonyság nem technológiából, hanem gondolkodásmódból
+                születik.
+              </p>
+              <div class="ss-card__actions">
+                <a
+                  class="cta cta--outline"
+                  href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Olvasd el Substacken
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="ss-card">
+            <div class="ss-card__media">
+              <img
+                src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+                alt="Folyamatok egyszerűsítése – borítókép"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="ss-card__body">
+              <h3 class="ss-card__title">
+                <a
+                  href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Folyamatok egyszerűsítése
+                </a>
+              </h3>
+              <p class="ss-card__desc">
+                Hol kezdj, ha túl sok az eszköz és kevés az idő?
+              </p>
+              <div class="ss-card__actions">
+                <a
+                  class="cta cta--outline"
+                  href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Olvasd el Substacken
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="ss-card">
+            <div class="ss-card__media">
+              <img
+                src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+                alt="Melyik eszközt válaszd? – borítókép"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="ss-card__body">
+              <h3 class="ss-card__title">
+                <a
+                  href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Melyik eszközt válaszd?
+                </a>
+              </h3>
+              <p class="ss-card__desc">
+                Szempontok a jó döntéshez – hype nélkül.
+              </p>
+              <div class="ss-card__actions">
+                <a
+                  class="cta cta--outline"
+                  href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Olvasd el Substacken
+                </a>
+              </div>
+            </div>
+          </article>
         </div>
-      </div>
-    </article>
 
-    <!-- CARD 2 -->
-    <article class="ss-card">
-      <div class="ss-card__media">
-        <img
-          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
-          alt="Folyamatok egyszerűsítése – borítókép"
-          loading="lazy" decoding="async"
-        />
-      </div>
-      <div class="ss-card__body">
-        <h3 class="ss-card__title">
-          <a href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
-             target="_blank" rel="noopener">
-            Folyamatok egyszerűsítése
-          </a>
-        </h3>
-        <p class="ss-card__desc">Hol kezdj, ha túl sok az eszköz és kevés az idő?</p>
-        <div class="ss-card__actions">
-          <a class="cta cta--outline"
-             href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
-             target="_blank" rel="noopener">
-            Olvasd el Substacken
-          </a>
+        <!-- Gray callout below the cards -->
+        <div class="callout callout--gray">
+          <img
+            src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg"
+            width="20"
+            height="20"
+            alt="Cél ikon"
+            class="callout__icon"
+          />
+          <p>
+            Ezeken már túl vagy, esetleg tovább olvasnál? Kattints ide és olvasd el
+            bármely bejegyzésem.
+          </p>
         </div>
-      </div>
-    </article>
-
-    <!-- CARD 3 -->
-    <article class="ss-card">
-      <div class="ss-card__media">
-        <img
-          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
-          alt="Melyik eszközt válaszd? – borítókép"
-          loading="lazy" decoding="async"
-        />
-      </div>
-      <div class="ss-card__body">
-        <h3 class="ss-card__title">
-          <a href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
-             target="_blank" rel="noopener">
-            Melyik eszközt válaszd?
-          </a>
-        </h3>
-        <p class="ss-card__desc">Szempontok a jó döntéshez – hype nélkül.</p>
-        <div class="ss-card__actions">
-          <a class="cta cta--outline"
-             href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
-             target="_blank" rel="noopener">
-            Olvasd el Substacken
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-          <!-- Gray callout: Additional content invitation with bullseye icon -->
-          <div class="callout callout--gray">
-            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Cél ikon" class="callout__icon" />
-            <p>Ezeken már túl vagy, esetleg tovább olvasnál? Kattints ide és olvasd el bármely bejegyzésem.</p>
-          </div>  
-</section>
-
+      </section>
     </main>
 
     <!-- Site footer with copyright -->
@@ -344,9 +513,5 @@
     <script>
       document.getElementById('y').textContent = new Date().getFullYear();
     </script>
-    
   </body>
-  </html>
-
-
-"" 
+</html>
