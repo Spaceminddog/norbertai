@@ -123,8 +123,8 @@ p, .muted { font-size: var(--fs-body); line-height: 1.6; margin: 0 0 var(--space
   border-radius: 12px; 
   display: block; 
 }
-.hero__media { display: flex; order: 2; }
-.hero__content { order: 1; }
+.hero__media { display: flex; }
+.hero__content { }
 .hero__media .hero__avatar { margin: 0; }
 
 /* ========================================
@@ -412,11 +412,7 @@ section { padding-block: var(--section-pad); }
    RESPONSIVE BREAKPOINTS
    ======================================== */
 /* Tablet breakpoint: 2-column grid */
-@media (min-width: 900px) {
-  .hero { grid-template-columns: 1fr 1fr; align-items: center; }
-  .hero__media { order: 2; justify-content: start; }
-  .hero__content { order: 1; }
-}
+/* Hero remains single-column per previous state */
 
 /* Mobile breakpoint: single column layout */
 @media (max-width: 768px) {
@@ -432,6 +428,12 @@ section { padding-block: var(--section-pad); }
 /* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Mobile card alignment: left-align contents in When to automate */
+@media (max-width: 768px) {
+  .when-to-automate .card { text-align: left; }
+  .when-to-automate .card__image { margin: 0 0 var(--space-1) 0; }
 }
 
 
