@@ -163,13 +163,6 @@ p, .muted { font-size: var(--fs-body); line-height: 1.6; margin: 0 0 var(--space
   margin-top: var(--space-3); 
   flex-wrap: wrap; 
 }
-.cta__note { 
-  font-size: clamp(13px, 1vw, 14px); 
-  opacity: 0.9; 
-  border-left: 2px solid var(--border); 
-  padding-left: 10px; 
-}
-
 /* ========================================
    BUTTON COMPONENTS
    ======================================== */
@@ -189,8 +182,9 @@ p, .muted { font-size: var(--fs-body); line-height: 1.6; margin: 0 0 var(--space
   min-height: 44px; /* comfortable touch target */
 }
 .button--primary { 
-  background: var(--blue); 
-  border-color: transparent; 
+  background: #504425; 
+  border-color: rgba(255, 255, 255, 0.377); 
+  border-width: 2px;
 }
 .button--gray { 
   background: var(--gray); 
@@ -208,6 +202,8 @@ p, .muted { font-size: var(--fs-body); line-height: 1.6; margin: 0 0 var(--space
 .button:active { 
   transform: translateY(1px); 
 }
+
+/* No special hover beyond base button styles */
 
 /* ========================================
    GRID SYSTEM
