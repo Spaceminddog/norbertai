@@ -233,29 +233,104 @@
       </section>
 
       <!-- ARTICLES SECTION: Featured content with Substack embeds and call-to-action -->
-      <section class="articles container" aria-labelledby="articles-title">
-        <!-- Section title: 24px H2 -->
-        <h2 id="articles-title" class="h2">Kiemelt tartalom, ha új vagy a témában</h2>
-        
-        <!-- 3-column article grid: Substack embeds (same article repeated as requested) -->
-        <div class="grid grid--3 article-embeds">
-          <article class="embed">
-            <div class="substack-post-embed"><p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p><p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p><a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem" rel="noopener" target="_blank">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
-          </article>
-          <article class="embed">
-            <div class="substack-post-embed"><p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p><p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p><a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem" rel="noopener" target="_blank">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
-          </article>
-          <article class="embed">
-            <div class="substack-post-embed"><p lang="en">Az automatizáció nem eszköz, hanem szemlélet by Norbert Bogdan</p><p>A valódi hatékonyság nem a technológiából, hanem a gondolkodásmódból születik.</p><a data-post-link href="https://norbertai.substack.com/p/az-automatizacio-nem-eszkoz-hanem" rel="noopener" target="_blank">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
-          </article>
-        </div>
+<!-- /mnt/data/index.html -->
+<!-- 1) Find your current "Articles/Substack" section and REPLACE the whole section with this: -->
+<section class="article-embeds container">
+  <h2 class="section-title">Kiemelt tartalom, ha új vagy a témában</h2>
 
-        <!-- Gray callout: Additional content invitation with bullseye icon -->
-        <div class="callout callout--gray">
-          <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Cél ikon" class="callout__icon" />
-          <p>Ezeken már túl vagy, esetleg tovább olvasnál? Kattints ide és olvasd el bármely bejegyzésem.</p>
+  <div class="ss-grid">
+    <!-- CARD 1 -->
+    <article class="ss-card">
+      <div class="ss-card__media">
+        <!-- Replace with your cover image -->
+        <img
+          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+          alt="Az automatizáció nem eszköz, hanem szemlélet – borítókép"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="ss-card__body">
+        <h3 class="ss-card__title">
+          <a href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
+             target="_blank" rel="noopener">
+            Az automatizáció nem eszköz, hanem szemlélet
+          </a>
+        </h3>
+        <p class="ss-card__desc">
+          A valódi hatékonyság nem technológiából, hanem gondolkodásmódból születik.
+        </p>
+        <div class="ss-card__actions">
+          <a class="cta cta--outline"
+             href="https://YOURNAME.substack.com/p/az-automatizacio-nem-eszkoz-hanem-szemlelet"
+             target="_blank" rel="noopener">
+            Olvasd el Substacken
+          </a>
         </div>
-      </section>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="ss-card">
+      <div class="ss-card__media">
+        <img
+          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+          alt="Folyamatok egyszerűsítése – borítókép"
+          loading="lazy" decoding="async"
+        />
+      </div>
+      <div class="ss-card__body">
+        <h3 class="ss-card__title">
+          <a href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
+             target="_blank" rel="noopener">
+            Folyamatok egyszerűsítése
+          </a>
+        </h3>
+        <p class="ss-card__desc">Hol kezdj, ha túl sok az eszköz és kevés az idő?</p>
+        <div class="ss-card__actions">
+          <a class="cta cta--outline"
+             href="https://YOURNAME.substack.com/p/folyamatok-egyszerusitese"
+             target="_blank" rel="noopener">
+            Olvasd el Substacken
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="ss-card">
+      <div class="ss-card__media">
+        <img
+          src="https://designter.s3.eu-central-1.amazonaws.com/ai-chipset-technology.jpg"
+          alt="Melyik eszközt válaszd? – borítókép"
+          loading="lazy" decoding="async"
+        />
+      </div>
+      <div class="ss-card__body">
+        <h3 class="ss-card__title">
+          <a href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
+             target="_blank" rel="noopener">
+            Melyik eszközt válaszd?
+          </a>
+        </h3>
+        <p class="ss-card__desc">Szempontok a jó döntéshez – hype nélkül.</p>
+        <div class="ss-card__actions">
+          <a class="cta cta--outline"
+             href="https://YOURNAME.substack.com/p/melyik-eszkozt-valaszd"
+             target="_blank" rel="noopener">
+            Olvasd el Substacken
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+          <!-- Gray callout: Additional content invitation with bullseye icon -->
+          <div class="callout callout--gray">
+            <img src="https://designter.s3.eu-central-1.amazonaws.com/bullseye_gray.svg" width="20" height="20" alt="Cél ikon" class="callout__icon" />
+            <p>Ezeken már túl vagy, esetleg tovább olvasnál? Kattints ide és olvasd el bármely bejegyzésem.</p>
+          </div>  
+</section>
+
     </main>
 
     <!-- Site footer with copyright -->
